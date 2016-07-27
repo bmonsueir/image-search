@@ -10,7 +10,7 @@ Template.imagesearch.helpers({
             }
         console.log(data.terms, offset);
         //remove before git commit
-        var encodedAppKey = btoa(":licO1e5H4b90ZrM5LLKomN07zJR4HVJQSdyWxA1VZm8");
+    
         //return results;
         var url = "https://api.datamarket.azure.com/Bing/Search/Image?Query=%27" + data.terms + "%27&$top=10&$skip=" + offset + "&$format=json";
 
