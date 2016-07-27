@@ -1,1 +1,7 @@
 /* CSS declarations go here */
+.search{
+    margin: 10px;
+}
+input{
+    margin: 20px;
+}
