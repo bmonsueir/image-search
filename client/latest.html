@@ -1,5 +1,7 @@
 <template name = "latest">
+    <ul>
     {{#each data}}
-    <p>Terms: {{ terms}} - on {{ createdAt}}</p>
+    <li>Terms: <b>{{terms}}</b> - on {{createdAt}}</li>
     {{/each}}
+</ul>
 </template>

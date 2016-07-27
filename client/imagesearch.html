@@ -1,3 +1,8 @@
 <template name = "imagesearch">
-    {{ results}}
+    <h2>Your Results</h2>
+<ul>
+    {{#each results}}
+        <li><p>Title: <b>{{title}} </b></p><p> Display: {{display}} </p><p>  Media: {{media}} </p><p>  Source: {{source}}</p></li>
+    {{/each}}
+</ul>
 </template>
